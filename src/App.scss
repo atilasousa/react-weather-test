@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.weather__info {
+  display: flex;
+  flex-direction: column;
+
+  .icon {
+    margin-bottom: 1.5rem;
+
+    img {
+      width: 5rem;
+    }
+  }
+
+  .weather_status {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .temp {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .temperature {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .temp__max-min {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .extra-info {
+    padding: 0.6em 1.2em;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+
+  .today-weather {
+    padding: 0.6em 1.2em;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+
+    .today {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+    }
+  }
+}
